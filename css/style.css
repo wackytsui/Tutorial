@@ -29,19 +29,27 @@ body{
     list-style: none;
     text-decoration: none;
 }
-.header,
-.link-nav-contact,
-.link-nav-parent{
-    gap: 50px;
+.logo-top{
     margin-top: 0%;
-    display: flex;
+    padding: 0 15px;
+    display: inline-flex;
     align-items: center;
     justify-items: center;
     height: 72px;
 }
+.link-nav-parent,
+.link-nav-contact{
+    gap: 50px;
+    margin-top: 0%;
+    padding: 0 15px;
+    display: inline-flex;
+    justify-items: space-between;
+    align-items: center;
+}
 .link-nav{
     color: black;
     text-decoration:none;
+    list-style-type: none;
 }
 .studio{
     color: rgb(80, 25, 231);
