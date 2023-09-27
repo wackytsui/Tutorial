@@ -6,6 +6,7 @@
     --WHITE: #FFF;
     --SLATE: #434455;
     --ACTIVE: #ff0000;
+    --CORNFLOWER: #E7E9FC;
 }
 /* start of general styling */
 body {
@@ -94,3 +95,32 @@ body {
     color: var(--CLOUD);
 }
 /* end of general styling */
+
+/* start of navigation positioning */
+.navigation {
+    display: flex;
+    height: 72px;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--CORNFLOWER);
+    background: var(--WHITE);
+    align-items: center;
+}
+.logo {
+    display: inline-flex;
+    height: 24px;
+    flex-shrink: 0;
+    padding-inline-start: 156px;
+}
+.nav-list {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding-left: 20px;
+}
+.nav-contact {
+    display: inline-flex;
+    padding-left: 250px;
+    padding-inline-end: 156px;
+    gap: 40px;
+}
+/* end of navigation positionine */
