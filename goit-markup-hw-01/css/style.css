@@ -153,5 +153,6 @@ body {
     display: inline-flex;
     flex-direction: column;
     width: 264px;
+    padding-left: 24px;
 }
 /* end of section 2 */
