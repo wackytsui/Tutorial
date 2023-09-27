@@ -104,6 +104,7 @@ body {
     border-bottom: 1px solid var(--CORNFLOWER);
     background: var(--WHITE);
     align-items: center;
+    justify-content: center;
 }
 .logo {
     display: inline-flex;
@@ -113,14 +114,44 @@ body {
 }
 .nav-list {
     display: inline-flex;
-    align-items: flex-start;
     gap: 40px;
-    padding-left: 20px;
+    padding-inline-start: 20px;
 }
 .nav-contact {
     display: inline-flex;
-    padding-left: 250px;
+    padding-inline-start: 250px;
     padding-inline-end: 156px;
     gap: 40px;
 }
 /* end of navigation positionine */
+
+/* start of hero section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    height: 600px;
+    flex-shrink: 0;
+}
+.hero-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+}
+/* end of hero section */
+
+/* start of section 2 */
+.body-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-text-list li {
+    display: inline-flex;
+    flex-direction: column;
+    width: 264px;
+}
+/* end of section 2 */
