@@ -16,6 +16,8 @@ body {
     color: var(--SLATE);
     line-height: 24px;
     letter-spacing: 0.32px;
+    width: 1440px;
+    margin: auto;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -110,7 +112,6 @@ body {
     display: inline-flex;
     height: 24px;
     flex-shrink: 0;
-    padding-inline-start: 156px;
 }
 .nav-list {
     display: inline-flex;
@@ -119,8 +120,7 @@ body {
 }
 .nav-contact {
     display: inline-flex;
-    padding-inline-start: 250px;
-    padding-inline-end: 156px;
+    padding-inline-start: 350px;
     gap: 40px;
 }
 /* end of navigation positionine */
@@ -143,11 +143,13 @@ body {
 }
 /* end of hero section */
 
-/* start of section 2 */
+/* start of section 1 */
 .body-text {
     display: flex;
+    height: 300px;
     align-items: center;
     justify-content: center;
+    background-color: var(--WHITE);
 }
 .body-text-list li {
     display: inline-flex;
@@ -155,4 +157,86 @@ body {
     width: 264px;
     padding-left: 24px;
 }
+.body-text-list li h3{
+    margin-bottom: 0;
+}
+/* end of section 1 */
+
+/* start of section 2 */
+.body-feature {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--WHITE);
+}
+.body-feature-list {
+    display: inline-flex;
+    gap: 20px;
+}
 /* end of section 2 */
+
+/* start of section 3 */
+.body-team {
+    display: flex;
+    height: 732px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--CLOUD);
+}
+.body-team-list {
+    display: inline-flex;
+    text-align: center;
+    gap: 20px;
+}
+.image-list {
+    display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.image-disc {
+    display: inline-flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 232px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.image-disc h2,
+.image-disc p {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0;
+}
+/* end of section 3 */
+
+/* start of footer */
+.footer-page {
+    display: flex;
+    height: 312px;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-page .logo{
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.footer-page .logo,
+.footer-page p {
+    margin-inline-start: 156px;
+    margin-inline-end: 156px;
+}
+/* end of footer */
